@@ -6,7 +6,7 @@ This API only support x64 application
 
 Usage
 Add reference to library "MyMessageBuilder.dll"
-Copy dependency dll to same folder of this dll: myEasyDotnetLoader.dll,myDotnetLoader.dll
+Copy dependency dll to same folder: myEasyDotnetLoader.dll,myDotnetLoader.dll,cryptopp_net.dll
 
 //To encrypt
 string result = MyMessageBuilderAPI.Encrypt("Hello MyMessageBuilderAPI");
